@@ -6,7 +6,6 @@
   /* min-height: 200px; */
 }
 .container {
-  border: 2px solid green;
   font-family: "Ubuntu", sans-serif;
   width: 80%;
   margin: 0 auto;
@@ -15,7 +14,6 @@
   align-items: center;
 }
 .img-container {
-  border: 2px solid red;
   width: 48%;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
@@ -58,17 +56,16 @@
 }
 
 .text-container {
-  border: 2px solid blue;
   width: 48%;
 }
-.text-container h2{
-    font-size: 2em;
-    font-weight: 700;
-    color:rgb(83, 83, 83);
+.text-container h2 {
+  font-size: 2em;
+  font-weight: 700;
+  color: rgb(83, 83, 83);
 }
-.text-container p{
-    color: rgb(83, 83, 83);
-    font-weight: 500;
+.text-container p {
+  color: rgb(83, 83, 83);
+  font-weight: 500;
 }
 .text-container * {
   margin-bottom: 0.5em;
